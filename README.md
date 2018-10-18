@@ -1,5 +1,6 @@
 # testVue
 
+此项目是前后端分离的项目 各自干各自的事
 
 1：安装vue的环境参照地址 https://segmentfault.com/a/1190000014211773
 
