@@ -34,4 +34,9 @@
 
   然后把dist里面所有文件都拷贝到springboot项目的resources/static目录下
 
-6：然后重启springboot项目，浏览器访问后台服务地址：https://localhost:8443，会发现页面显示的就是vue开发的前端页面，然后输入用户名密码登录正常。
+6：然后重启springboot项目，浏览器访问后台服务地址：https://localhost:8443
+  会发现页面显示的就是vue开发的前端页面，然后输入用户名密码登录正常。
+  
+  注意 浏览器上面的#是固定的 写法 也可以去掉 在router下面的 index.js 里面加 mode="history";(有一个问题就是后台启动项目的时候 刷新页面会报404，具体处理方法还没研究)
+  
+  
